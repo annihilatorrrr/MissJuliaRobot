@@ -10,7 +10,7 @@
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": "",
       "required": true
-    },
+        },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": "",
@@ -19,7 +19,7 @@
     "STRING_SESSION": {
       "description": "Get this value by running python3 session.py locally(or heroku console)",
       "value": "",
-      "required": true
+      "required": false 
     },
     "TOKEN": {
       "description": "Get your bot token from @BotFather",
@@ -174,15 +174,11 @@
     "GOOGLE_SRCH_VALUE": {
       "description": "Required for google search, get it from get your api key from https://developers.google.com/custom-search/v1/overview",
       "value": "",
-      "required": false
-    }
+      "required": false 
   },
   "addons": [
     {
       "plan": "heroku-postgresql"
-    },
-    {
-      "plan": "ormongo:5-mmap"
     }
   ],
   "buildpacks": [
